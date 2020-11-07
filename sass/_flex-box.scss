@@ -1,0 +1,5 @@
+/*space-between*/
+@mixin sb {
+    display: flex;
+    justify-content: space-between;
+}

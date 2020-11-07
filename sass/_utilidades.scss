@@ -1,0 +1,21 @@
+@mixin seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@mixin tamaño-fuente {
+    font-weight: 300;
+}
+
+
+@mixin centrar-tex {
+    text-align: center;
+}
+
+@mixin block {
+    display: block !important;
+}
+
+@mixin centrar-cont {
+    max-width: 800px;
+}

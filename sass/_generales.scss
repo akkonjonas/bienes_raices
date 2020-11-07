@@ -1,0 +1,38 @@
+@mixin html {
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+    box-sizing: inherit;
+}
+        
+@mixin body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+@mixin h1 {
+    font-size: 3.8rem;
+}
+
+@mixin h2 {
+    font-size: 3.4rem;
+}
+
+@mixin h3 {
+    font-size: 3rem;
+}
+
+@mixin h4 {
+    font-size: 2.6rem;
+}
+
+@mixin img {
+    max-width: 100%;
+}
+
+@mixin contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
